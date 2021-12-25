@@ -1,38 +1,72 @@
-.App {
+body {
+  background-color: whitesmoke;
+}
+/* menu.js file */
+.menu {
+  text-align: center;
+  margin-top: 2%;
+}
+.menu .link1 {
+  text-decoration: none;
+  padding: 0.5%;
+  font-weight: bold;
+  color: black;
+  margin-left: 1%;
+}
+.menu .link1:hover {
+  color: rgba(248, 9, 9, 0.664);
+}
+
+/* Home.js file */
+.heading {
+  text-align: center;
+  margin-top: 15%;
+}
+.heading button {
+  padding: 0.5%;
+  margin-top: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 15px;
+}
+.heading button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3%;
+}
+/* cars secction */
+* {
+  box-sizing: border-box;
+}
+.upper {
+  display: flex;
+  text-align: center;
+  background-color: rgb(233, 233, 215);
+  margin-top: 2%;
+}
+.photos {
+  margin-top: 3%;
+  flex: 33.33%;
+}
+.photos,
+.img1 {
+  width: 56.5%;
+  margin: 0.6%;
+}
+/* flowers file */
+.upperflower {
+  margin-left: 30%;
+  background-color: rgb(235, 235, 198);
+}
+.flower {
+  display: flex;
+  float: left;
+  margin-top: 2%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.color {
+  padding: 1%;
+  cursor: pointer;
 }
